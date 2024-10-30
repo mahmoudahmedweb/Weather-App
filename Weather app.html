@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Weather App</title>
+            <!--Font Awseome-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+            <!-- Web Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+            <!-- Style Sheet -->
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <div class="container">
+                <h2>Check Weather deatils by city name</h2>
+                <div class="app">
+                    <div class="search-box">
+                            <input type="text" placeholder="Search by city name ...">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <p class="error-message">Invalid city name. Please try again.</p>
+                    <div class="weather">
+                        <div class="weather-info">
+                            <img src="https://a.top4top.io/p_3221jmazo1.png">
+                            <h1 class="temp">27°C</h1>
+                            <h2 class="city">Cairo</h2>
+                        </div>
+                        <div class="details">
+                            <div class="col">
+                                <img src="https://c.top4top.io/p_3221jj5ae1.png">
+                                <div>
+                                    <p class="humidity">50%</p>
+                                    <p>Humidity</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <img src="https://h.top4top.io/p_3221k088j1.png"></img>
+                                <div>
+                                    <p class="wind">15km p/h</p>
+                                    <p>Wind Speed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </body>
+</html>
